@@ -3,7 +3,7 @@
 # see: https://askubuntu.com/questions/1031921/php-mcrypt-package-missing-in-ubuntu-server-18-04-lts
 FROM ubuntu:17.10
 
-ENV XENTRAL_DOWNLOAD https://update.xentral.biz/download/19.1.1c1c4f2_oss_wawision.zip
+ENV XENTRAL_DOWNLOAD https://update.xentral.biz/download/19.3.c214214_oss_wawision.zip
 
 # tzdata is needed for php-fpm
 ENV TZ Europe/Berlin
