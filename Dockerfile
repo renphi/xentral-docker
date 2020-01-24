@@ -53,9 +53,6 @@ ENV APACHE_RUN_USER www-data
 ENV APACHE_RUN_GROUP www-data
 ENV APACHE_LOG_DIR /var/log/apache2
 
-VOLUME /var/www/html/conf
-VOLUME /var/www/html/userdata
-
 # Setup CRON
 COPY crontab /etc/crontab
 RUN chown root: /etc/crontab && chmod 644 /etc/crontab
